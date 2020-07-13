@@ -9,23 +9,43 @@
 /* Begin PBXBuildFile section */
 		6A46A5F724BC60AA0028A835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A46A5F624BC60AA0028A835 /* AppDelegate.swift */; };
 		6A46A5F924BC60AA0028A835 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A46A5F824BC60AA0028A835 /* SceneDelegate.swift */; };
-		6A46A5FB24BC60AA0028A835 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A46A5FA24BC60AA0028A835 /* ViewController.swift */; };
-		6A46A5FE24BC60AA0028A835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A46A5FC24BC60AA0028A835 /* Main.storyboard */; };
 		6A46A60124BC60AA0028A835 /* CardScore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A46A5FF24BC60AA0028A835 /* CardScore.xcdatamodeld */; };
 		6A46A60324BC60AB0028A835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A46A60224BC60AB0028A835 /* Assets.xcassets */; };
 		6A46A60624BC60AB0028A835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A46A60424BC60AB0028A835 /* LaunchScreen.storyboard */; };
+		6A46A61524BC61410028A835 /* ScoringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A46A61424BC61410028A835 /* ScoringViewController.swift */; };
+		6A46A61824BC6B0E0028A835 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A46A61724BC6B0E0028A835 /* CheckBox.swift */; };
+		6A46A61A24BC6CCD0028A835 /* GroupCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A46A61924BC6CCD0028A835 /* GroupCheckBox.swift */; };
+		6A46A61C24BC74C50028A835 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A46A61B24BC74C50028A835 /* Player.swift */; };
+		6A46A61E24BC752D0028A835 /* ScoringViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A46A61D24BC752D0028A835 /* ScoringViewModel.swift */; };
+		6A46A62024BC77A10028A835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A46A61F24BC77A10028A835 /* Main.storyboard */; };
+		6A46A62224BC77AD0028A835 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A46A62124BC77AD0028A835 /* PlayersViewController.swift */; };
+		6A46A62624BC79D80028A835 /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A46A62424BC79D80028A835 /* PlayerTableViewCell.swift */; };
+		6A46A62724BC79D80028A835 /* PlayerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A46A62524BC79D80028A835 /* PlayerTableViewCell.xib */; };
+		6A46A62924BC7E410028A835 /* PlayersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A46A62824BC7E410028A835 /* PlayersViewModel.swift */; };
+		6A46A62C24BC7E6A0028A835 /* PlayersDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A46A62B24BC7E6A0028A835 /* PlayersDataSource.swift */; };
+		6A46A62E24BCFE0A0028A835 /* AddPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A46A62D24BCFE0A0028A835 /* AddPlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6A46A5F324BC60AA0028A835 /* CardScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A46A5F624BC60AA0028A835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A46A5F824BC60AA0028A835 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6A46A5FA24BC60AA0028A835 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6A46A5FD24BC60AA0028A835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A46A60024BC60AA0028A835 /* CardScore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CardScore.xcdatamodel; sourceTree = "<group>"; };
 		6A46A60224BC60AB0028A835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A46A60524BC60AB0028A835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A46A60724BC60AB0028A835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A46A61424BC61410028A835 /* ScoringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoringViewController.swift; sourceTree = "<group>"; };
+		6A46A61724BC6B0E0028A835 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		6A46A61924BC6CCD0028A835 /* GroupCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCheckBox.swift; sourceTree = "<group>"; };
+		6A46A61B24BC74C50028A835 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		6A46A61D24BC752D0028A835 /* ScoringViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoringViewModel.swift; sourceTree = "<group>"; };
+		6A46A61F24BC77A10028A835 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6A46A62124BC77AD0028A835 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		6A46A62424BC79D80028A835 /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		6A46A62524BC79D80028A835 /* PlayerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerTableViewCell.xib; sourceTree = "<group>"; };
+		6A46A62824BC7E410028A835 /* PlayersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewModel.swift; sourceTree = "<group>"; };
+		6A46A62B24BC7E6A0028A835 /* PlayersDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersDataSource.swift; sourceTree = "<group>"; };
+		6A46A62D24BCFE0A0028A835 /* AddPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +78,90 @@
 		6A46A5F524BC60AA0028A835 /* CardScore */ = {
 			isa = PBXGroup;
 			children = (
+				6A46A61624BC6B060028A835 /* Common */,
+				6A46A60F24BC60ED0028A835 /* ViewController */,
+				6A46A60E24BC60E80028A835 /* Model */,
+				6A46A60D24BC60D60028A835 /* ViewModel */,
 				6A46A5F624BC60AA0028A835 /* AppDelegate.swift */,
 				6A46A5F824BC60AA0028A835 /* SceneDelegate.swift */,
-				6A46A5FA24BC60AA0028A835 /* ViewController.swift */,
-				6A46A5FC24BC60AA0028A835 /* Main.storyboard */,
 				6A46A60224BC60AB0028A835 /* Assets.xcassets */,
 				6A46A60424BC60AB0028A835 /* LaunchScreen.storyboard */,
 				6A46A60724BC60AB0028A835 /* Info.plist */,
 				6A46A5FF24BC60AA0028A835 /* CardScore.xcdatamodeld */,
 			);
 			path = CardScore;
+			sourceTree = "<group>";
+		};
+		6A46A60D24BC60D60028A835 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6A46A62A24BC7E5F0028A835 /* DataSource */,
+				6A46A61D24BC752D0028A835 /* ScoringViewModel.swift */,
+				6A46A62824BC7E410028A835 /* PlayersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6A46A60E24BC60E80028A835 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6A46A61B24BC74C50028A835 /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A46A60F24BC60ED0028A835 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6A46A61124BC610E0028A835 /* Controller */,
+				6A46A61024BC61070028A835 /* Storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6A46A61024BC61070028A835 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6A46A61F24BC77A10028A835 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		6A46A61124BC610E0028A835 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A46A62324BC79BA0028A835 /* Cells */,
+				6A46A61424BC61410028A835 /* ScoringViewController.swift */,
+				6A46A62124BC77AD0028A835 /* PlayersViewController.swift */,
+				6A46A62D24BCFE0A0028A835 /* AddPlayerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A46A61624BC6B060028A835 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6A46A61724BC6B0E0028A835 /* CheckBox.swift */,
+				6A46A61924BC6CCD0028A835 /* GroupCheckBox.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6A46A62324BC79BA0028A835 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6A46A62424BC79D80028A835 /* PlayerTableViewCell.swift */,
+				6A46A62524BC79D80028A835 /* PlayerTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6A46A62A24BC7E5F0028A835 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				6A46A62B24BC7E6A0028A835 /* PlayersDataSource.swift */,
+			);
+			path = DataSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +222,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A46A62724BC79D80028A835 /* PlayerTableViewCell.xib in Resources */,
 				6A46A60624BC60AB0028A835 /* LaunchScreen.storyboard in Resources */,
 				6A46A60324BC60AB0028A835 /* Assets.xcassets in Resources */,
-				6A46A5FE24BC60AA0028A835 /* Main.storyboard in Resources */,
+				6A46A62024BC77A10028A835 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +236,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A46A61A24BC6CCD0028A835 /* GroupCheckBox.swift in Sources */,
+				6A46A62C24BC7E6A0028A835 /* PlayersDataSource.swift in Sources */,
 				6A46A60124BC60AA0028A835 /* CardScore.xcdatamodeld in Sources */,
-				6A46A5FB24BC60AA0028A835 /* ViewController.swift in Sources */,
+				6A46A62624BC79D80028A835 /* PlayerTableViewCell.swift in Sources */,
+				6A46A62924BC7E410028A835 /* PlayersViewModel.swift in Sources */,
+				6A46A62E24BCFE0A0028A835 /* AddPlayerViewController.swift in Sources */,
+				6A46A61E24BC752D0028A835 /* ScoringViewModel.swift in Sources */,
+				6A46A61524BC61410028A835 /* ScoringViewController.swift in Sources */,
 				6A46A5F724BC60AA0028A835 /* AppDelegate.swift in Sources */,
+				6A46A61C24BC74C50028A835 /* Player.swift in Sources */,
 				6A46A5F924BC60AA0028A835 /* SceneDelegate.swift in Sources */,
+				6A46A61824BC6B0E0028A835 /* CheckBox.swift in Sources */,
+				6A46A62224BC77AD0028A835 /* PlayersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6A46A5FC24BC60AA0028A835 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6A46A5FD24BC60AA0028A835 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6A46A60424BC60AB0028A835 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
